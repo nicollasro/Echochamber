@@ -39,7 +39,7 @@ def check_limits(api):
 if __name__ == "__main__":
 
 	consumer_key = "XXXX"
-	consumer_secret = 'XXXX"
+	consumer_secret = "XXXX"
 	access_key= 'XXXX'
 	access_secret = 'XXXX'
 
