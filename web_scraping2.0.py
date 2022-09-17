@@ -38,17 +38,17 @@ def check_limits(api):
 
 if __name__ == "__main__":
 
-	consumer_key = 'A0iOlLQR7YE2Pp0AtCsug5X9y'
-	consumer_secret = 'boQx4ohmC1N0dpElF9qNwnis0qmuEVgix1xTSCy1TbLzjjeIDy'
-	access_key= '1173637793379160067-KnsE82lVbhpaFZwFs3TGxWcwuaPEdy'
-	access_secret = 'alHVYz6EJuspq3SCCbphq8y2i929WkkfCvjttQbFsEr0N'
+	consumer_key = "XXXX"
+	consumer_secret = 'XXXX"
+	access_key= 'XXXX'
+	access_secret = 'XXXX'
 
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_key, access_secret)
 	api = tweepy.API(auth)
 	
-	account = '@Boatosorg'
-	file_path ="boatos.csv"
+	account = '@ '
+	file_path =".csv"
 	batch=10
 
 	web_scrapping(account, file_path)
